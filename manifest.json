@@ -1,0 +1,52 @@
+{
+  "name": "AjeitaRecife",
+  "short_name": "AjeitaRecife",
+  "description": "O Ajeita Recife é uma plataforma inovadora desenvolvida para permitir que os cidadãos de Recife relatem problemas relacionados à infraestrutura urbana, contribuindo para a melhoria da cidade de maneira colaborativa e eficiente. Com uma interface amigável e recursos interativos, o Ajeita Recife capacita os moradores a se envolverem ativamente na identificação e resolução de questões urbanas, desde buracos nas ruas até problemas de iluminação pública.",
+  "start_url": "index.html",
+  "display": "standalone",
+  "background_color": "#333333",
+  "theme_color": "#333333",
+  "icons": [
+    {
+      "src": "icons/128.png",
+      "sizes": "128x128",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/144.png",
+      "sizes": "144x144",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/152.png",
+      "sizes": "152x152",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/167.png",
+      "sizes": "167x167",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/180.png",
+      "sizes": "180x180",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/196.png",
+      "sizes": "196x196",
+      "type": "image/png",
+	  "purpose": "any maskable"
+    },
+    {
+      "src": "icons/256.png",
+      "sizes": "256x256",
+      "type": "image/png"
+    },
+    {
+      "src": "icons/512.png",
+      "sizes": "512x512",
+      "type": "image/png"
+    }
+  ]
+}

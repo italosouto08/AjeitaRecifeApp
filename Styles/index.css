@@ -1,0 +1,219 @@
+* {
+    margin: 0px;
+    padding: 0px;
+    list-style: none;
+    box-sizing: border-box;
+}
+  
+html{
+    scroll-behavior: smooth;  
+    background-color: rgb(113, 189, 240);
+}
+  
+a {
+    text-decoration: none;
+    color: inherit;
+}
+  
+body {
+    height: 100vh;
+    display: grid;
+    font-family: 'Source Sans Pro', sans-serif;
+}
+  
+#nav #menuHam{
+    display: none;
+}
+  
+header {
+    display: flex;
+    justify-content: space-between;
+    font-weight: 700;
+    position: fixed;
+    width: 100%;
+    z-index: 1;
+    background-color: #11B5F6;
+}
+  
+.social-menu{
+    display: none;
+}
+  
+header .fa{
+    display: block;
+}
+  
+  
+nav>ul {
+    display: flex;
+}
+  
+nav>ul a {
+    display: block;
+    padding: 35px 20px;
+}
+  
+header a:hover{
+    color: rgb(113, 189, 240);;
+    transform: scale(1.05);
+}
+  
+.header-profile {
+    display: flex;
+    align-items: center;
+    font-size: 17px;
+}
+
+@media only screen and (max-width: 768px) {
+html {
+    font-size: 13px;
+}
+
+main{
+    width: 100%;
+    background-image: url(/assets/large-triangles.png);
+    background-size: cover;
+} 
+
+input[type=number]::-webkit-inner-spin-button { 
+    -webkit-appearance: none;   
+}
+
+input[type=number] { 
+   -moz-appearance: textfield;
+   appearance: textfield;
+}
+  
+header {
+    padding: 0px 2rem;
+    border-bottom-left-radius: 8px;
+    border-bottom-right-radius: 8px;
+}
+
+#menu{
+    display: block;
+    position: absolute;
+    width: 100%;
+    background-color: white;
+    right: 0px;
+    height: 0px;
+    z-index: 1000;
+    transition: .6s ;
+    visibility: hidden;
+    overflow-y: hidden;
+}
+
+#menu a {
+    border-bottom: 2px solid #737373 ;
+}
+
+#nav #menuHam{
+    display: block;
+    background: #11B5F6;
+    border: none;
+}
+
+#nav.active #menu{
+    visibility: visible;
+    height: 100vh;
+    overflow-y: auto;
+}
+
+#menu .social-menu{
+    display: flex;
+    justify-content: center;   
+}
+
+header .fa {
+    display: block;
+    font-size: 1.8rem;
+    padding: 2.2rem 2rem;
+    align-self: center;
+    cursor: pointer;
+}
+
+.nav-control {
+    border-radius: 5px;
+    margin-top: 20px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nav-number{
+    border-radius: 20px;
+    background-color: #fff;
+    padding: 10px 15px;
+    margin-right: 10px;
+    margin-bottom: 10px;
+    background: rgb(113, 189, 240);
+    width: fit-content;
+    text-align: center;
+}
+
+.nav-info {
+    border-radius: 5px;
+    background-color: #fff;
+    margin-top: 1rem;
+    margin-bottom: 1rem; 
+}
+
+.page-number {
+    font-size: 11px;
+    font-weight: bold;
+    color: #333;
+}
+
+.page-info {
+    font-size: 16px;
+    color: #666;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+}
+
+.containerId{
+    padding: 5rem 2rem;
+    margin-right: 2rem;
+    margin-left: 2rem;
+    margin-top: 9rem;
+    margin-bottom: 9rem;
+    height: calc(100% - 12rem);
+    background-color: white;
+    border-radius: 10px;
+    z-index: 1;
+}
+
+form{
+    height: 100%;
+    margin-top: 2rem;
+}
+
+.buttons{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 5rem;
+}
+
+.btn {
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    width: 200px;
+    padding: 10px 20px; 
+}
+
+.btn a {
+    background: #333;
+    color: black;
+    padding: 10px 20px;
+    text-decoration: none;
+    border-radius: 20px;
+    display: inline-block;
+    background-color: rgb(113, 189, 240);
+}
+
+.btn a:hover {
+    background: white;
+}
+}

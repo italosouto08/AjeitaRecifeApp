@@ -71,7 +71,7 @@ html {
 
 main{
     width: 100%;
-    background-image: url(/assets/large-triangles.png);
+    background-image: url(../assets/large-triangles.png);
     background-size: cover;
 } 
 
@@ -111,6 +111,7 @@ header {
     display: block;
     background: #11B5F6;
     border: none;
+    color: black;
 }
 
 #nav.active #menu{
@@ -130,6 +131,7 @@ header .fa {
     padding: 2.2rem 2rem;
     align-self: center;
     cursor: pointer;
+    color: black;
 }
 
 .nav-control {
@@ -176,7 +178,7 @@ header .fa {
     margin-left: 2rem;
     margin-top: 9rem;
     margin-bottom: 9rem;
-    height: calc(100% - 12rem);
+    height: min-content;
     background-color: white;
     border-radius: 10px;
     z-index: 1;

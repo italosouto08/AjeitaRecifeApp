@@ -163,8 +163,7 @@ form h4 {
 .btn a:hover {
     background: #b8b6b6;
 }
-  
-/* footer */
+
 footer {
     background: rgb(113, 189, 240);
     color: black;
@@ -216,7 +215,7 @@ html {
 
 main{
     width: 1fr;
-    background-image: url(/assets/large-triangles.png);
+    background-image: url(../assets/large-triangles.png);
 }
 
 .subtitle {
@@ -279,6 +278,7 @@ header .fa {
     padding: 2.2rem 2rem;
     align-self: center;
     cursor: pointer;
+    color: black;
 }
 
 .nav-control {
@@ -326,9 +326,8 @@ header .fa {
 form{
     padding: 5rem 2rem;
     width: calc(100% - 4rem);
-    /* margin-right: rem; */
     margin-top: 9rem;
-    height: calc(100vh - 12rem);
+    height: min-content;
     background-color: white;
     border-radius: 10px;
     z-index: 1;
@@ -342,13 +341,6 @@ form{
     flex-basis: 100%;
 }
 }
-
-/* .ou{
-    display: flex;
-    justify-content: center;
-    margin-top: 1rem;
-    margin-bottom: 1rem;
-} */
 
 footer {
     display: none;

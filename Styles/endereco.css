@@ -165,7 +165,6 @@ form h4 {
     background: #b8b6b6;
 }
   
-/* footer */
 footer {
     background: rgb(113, 189, 240);
     color: black;
@@ -217,7 +216,7 @@ html {
 
 main{
     width: 100%;
-    background-image: url(/assets/large-triangles.png);
+    background-image: url(../assets/large-triangles.png);
 }
 
 .subtitle {
@@ -280,6 +279,7 @@ header .fa {
     padding: 2.2rem 2rem;
     align-self: center;
     cursor: pointer;
+    color: black;
 }
 
 .nav-control {

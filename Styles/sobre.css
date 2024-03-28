@@ -93,8 +93,7 @@ header a:hover{
 .btn a:hover {
     background: #b8b6b6;
 }
-  
-/* footer */
+
 footer {
     background: rgb(113, 189, 240);
     color: black;
@@ -146,7 +145,7 @@ html {
 
 main{
     width: 1fr;
-    background-image: url(/assets/large-triangles.png);
+    background-image: url(../assets/large-triangles.png);
 }
 
 .subtitle {
@@ -209,6 +208,7 @@ header .fa {
     padding: 2.2rem 2rem;
     align-self: center;
     cursor: pointer;
+    color: black;
 }
 
 .nav-control {
@@ -254,7 +254,7 @@ header .fa {
     padding: 5rem 2rem;
     width: calc(100% - 4rem);
     margin-top: 9rem;
-    height: calc(100vh - 12rem);
+    height: min-content;
     background-color: white;
     border-radius: 10px;
     z-index: 1;
